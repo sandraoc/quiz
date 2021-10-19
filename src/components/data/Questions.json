@@ -1,0 +1,100 @@
+{
+    "questions": [
+    {
+      "title": "Hva er testing?",
+      "answers": [
+        {
+           "answere": "Det er en del av processer som styrer kode kvaliteten.",
+          "correct": false 
+        },
+        {
+          "answere": "TDD teknikken.",
+          "correct": false
+        },
+        {
+          "answere": "Manuelle tester der man trykker seg frem gjennom implementerte løsninger.",
+          "correct": false
+        },
+        {
+          "answere": "Alle nevnte.",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Testing gjør koden kvalitetssikker, hvor man kan ta i bruk flere metoder."
+      }
+    },
+      {
+        "title": "Hva er Jest?",
+        "answers": [
+          { 
+            "answere": "Jest er et JS rammeverk brukt til testing.",
+            "correct": true 
+          },
+          {
+            "answere": "Jest er et dessert med sin opprinnelse i Italia.",
+            "correct": false
+          },
+          {
+            "answere": "En energidrikk som man får kjøpt i Normal.",
+            "correct": false
+          },
+          {
+            "answere": "Jest er et Java rammeverk brukt til testing.",
+            "correct": false
+          }
+        ],
+        "helper": {
+          "text": "Et populært verktøy som sjekker om antagelsene våre stemmer."
+        }
+      },
+      {
+        "title": "Hva er de to hovedformene for asynkronitet?",
+        "answers": [
+          { 
+            "answere": "Komponenter og props.",
+            "correct": false 
+          },
+          {
+            "answere": "Callbacks og promises.",
+            "correct": true
+          },
+          {
+            "answere": "Conditionals og events.",
+            "correct": false
+          },
+          {
+            "answere": "Mocks og await.",
+            "correct": false
+          } 
+        ],
+        "helper": {
+          "text": "Løfter i JavaScript objekter som står for en eventuell fullføring eller svikt av en asynkron operasjon."
+        }
+      },
+      {
+        "title": "Hva gjør expect funksjon i Jest?",
+        "answers": [
+          { 
+            "answere": "Den lager matcha.",
+            "correct": false 
+          },
+          {
+            "answere": "Expect sender en prop fra en komponent.",
+            "correct": false
+          },
+          {
+            "answere": "Expect gir deg tilgang til en rekke treff som lar deg validere forskjellige ting.",
+            "correct": true
+          },
+          {
+            "answere": "Expect brukes til å lage React Hooks.",
+            "correct": false
+          }
+        ],
+        "helper": {
+          "text": "Vi trenger den for å sjekke om deler av koden stemmer."
+        }
+      }
+  ]
+}
